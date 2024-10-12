@@ -1,0 +1,99 @@
+@media only screen and (max-width:620px){
+
+.images{
+    background-position: center;
+    /* height: 900px; */
+}
+.left-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* text-align: center; */
+}
+.text-button p{
+    width: 100%;
+}
+.text-button{
+    
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+}
+.text-button2{
+    
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+}
+.text-button3{
+    
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+}
+
+.left-h1{
+    top: 10%;
+}
+.left-h1 {
+    font-size: 45px !important;
+}
+
+
+@keyframes back-image{
+    0%{
+        background-image: url(hero_bg_1_1.png);
+        background-size: cover;
+    
+    
+    }
+    25%{
+        background-image: url(hero_bg_1_1.png);
+        background-size: cover;
+    
+    }
+    30%{
+        background-image: url(hero_bg_1_2.png);
+        background-size: cover
+    
+        
+    }
+    55%{
+        background-image: url(hero_bg_1_2.png);
+        background-size: cover;
+    
+        
+    }
+    60%{
+        background-image: url(hero_bg_1_3.png);
+        background-size: cover;
+    
+    
+    }
+    90%{
+        background-image: url(hero_bg_1_3.png);
+        background-size: cover;
+    
+    
+    }
+    100%{
+        background-image: url(hero_bg_1_1.png);
+        background-size: cover;
+    
+    
+    }
+}
+.cards-4{
+    /* height: 1000px; */
+}
+.left-1{
+    height: 80vh;
+}
+.about-text-2 h1{
+    font-size: 30px !important;
+}
+}
